@@ -12,7 +12,7 @@ import shutil
 from win32com.client import Dispatch
 
 # app
-version = "1.5.1"
+version = "1.5.0"
 
 stored_data = 100
 
