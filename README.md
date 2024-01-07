@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
 [![Download Brightness Control](https://img.shields.io/sourceforge/dt/brightness-control.svg)](https://sourceforge.net/projects/brightness-control/files/latest/download)
 
-Welcome to Brightness Control, a powerful tool designed for Windows users to effortlessly adjust the brightness of their external monitors. 
+Welcome to Brightness Control, a simple tool designed for Windows users to effortlessly adjust the brightness of their external monitors. 
 The latest version, 1.5.0, introduces a streamlined graphical user interface (GUI) and addresses previous bugs for a smoother user experience.
 
 # Download
