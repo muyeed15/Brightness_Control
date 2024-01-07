@@ -166,7 +166,7 @@ def settings():
     dev_vis.grid(row=2, column=0)
 
     def git_link():
-        webbrowser.open_new_tab("https://github.com/almuyeed/")
+        webbrowser.open_new_tab("https://github.com/muyeed15/")
 
 
     dev_butt = ttk.Button(app_set, text="GitHub", command=git_link)
