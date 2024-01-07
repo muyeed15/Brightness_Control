@@ -12,7 +12,7 @@ import shutil
 from win32com.client import Dispatch
 
 # app
-version = "1.5.0"
+version = "1.5.1"
 
 stored_data = 100
 
@@ -222,7 +222,7 @@ def update():
     status_label = Label(app_update, text=data, font="Ariel, 20", foreground=color)
     status_label.pack(pady=3)
 
-    version_label = Label(app_update, text="[ " + ver_dat + " ]", font="Ariel, 12", foreground="gray")
+    version_label = Label(app_update, text="[" + ver_dat + "]", font="Ariel, 12", foreground="gray")
     version_label.pack(pady=15)
 
     web_button.pack(ipadx=22, ipady=3, pady=4)
