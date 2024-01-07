@@ -17,7 +17,7 @@ version = "1.5.0"
 stored_data = 100
 
 try:
-    new_version = requests.get("https://raw.githubusercontent.com/almuyeed/Brightness_Control/main/info.txt").text
+    new_version = requests.get("https://raw.githubusercontent.com/muyeed15/Brightness_Control/main/version.txt").text
 except:
     new_version = "null"
 
@@ -186,7 +186,7 @@ update_button = ttk.Button(text="Update")
 
 def update():
     try:
-        new_version = requests.get("https://raw.githubusercontent.com/almuyeed/Brightness_Control/main/info.txt").text
+        new_version = requests.get("https://raw.githubusercontent.com/muyeed15/Brightness_Control/main/version.txt").text
     except:
         new_version = "null"
     
