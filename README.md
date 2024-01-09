@@ -52,7 +52,7 @@ pip install tkinter customtkinter screen_brightness_control requests webbrowser 
 
 EVOKE: My coding journey's heartbeat. Born from passion, shaping tomorrow's code. Join me, let's evoke brilliance together.
 
-Link: [GitHub](https://github.com/muyeed15)
+Visit: [https://sites.google.com/view/evoke-official](https://sites.google.com/view/evoke-official)
 
 # Special Thanks
 <a href="https://sourceforge.net/p/brightness-control/"><img alt="Download Brightness Control" src="https://sourceforge.net/sflogo.php?type=17&group_id=3496758" width=200></a>
