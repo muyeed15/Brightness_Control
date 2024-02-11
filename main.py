@@ -22,7 +22,7 @@ except:
     new_version = "null"
 
 def save():
-    open(fr"C:\EVOKE\Brightness Control\config.ini", "w").write(str(stored_data))
+    open(fr"config.ini", "w").write(str(stored_data))
 
 
 def rem_x86():
@@ -37,13 +37,13 @@ def srt_up_on():
 
         shell = Dispatch("WScript.Shell")
         shortcut = shell.CreateShortCut(fr"C:\Users\{user_name}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Brightness Control.lnk")
-        shortcut.Targetpath = fr"C:\EVOKE\Brightness Control\Brightness Control.exe"
+        shortcut.Targetpath = fr"Brightness Control.exe"
         shortcut.save()
     except: pass
 
 
 try:
-    stored_data = int(open(fr"C:\EVOKE\Brightness Control\config.ini", "r").read())
+    stored_data = int(open(fr"config.ini", "r").read())
 except:
     save()
     rem_x86()
@@ -55,7 +55,7 @@ screen_brightness_control.set_brightness(stored_data, display=0)
 app = Tk()
 
 app.title("Brightness Control")
-app.iconbitmap(fr"C:/EVOKE/Brightness Control/resources/Brightness Control.ico")
+app.iconbitmap(fr"resources/Brightness Control.ico")
 
 screen_width = 471
 screen_height = 168
@@ -125,7 +125,7 @@ def settings():
     app_set = Toplevel()
 
     app_set.title("Settings")
-    app_set.iconbitmap(fr"C:/EVOKE/Brightness Control/resources/Brightness Control.ico")
+    app_set.iconbitmap(fr"resources/Brightness Control.ico")
 
     screen_width = 471
     screen_height = 168
@@ -159,7 +159,7 @@ def settings():
         srt_st = "on"
 
     switch_var = StringVar(value=srt_st)
-    srt_switch = CTkSwitch(app_set, text="  off/on", fg_color="#fc5656",command=switch_event, variable=switch_var, onvalue="on", offvalue="off")
+    srt_switch = CTkSwitch(app_set, text="  off/on", fg_color="gray", command=switch_event, variable=switch_var, onvalue="on", offvalue="off")
     srt_switch.grid(row=1, column=1)
 
     dev_vis = Label(app_set, text="Visit my GitHub Profile" + " "*40 +":", font="Ariel, 12", foreground="gray")
@@ -192,7 +192,7 @@ def update():
     
     app_update = Toplevel(app)
     app_update.title("Updater")
-    app_update.iconbitmap(fr"C:/EVOKE/Brightness Control/resources/Brightness Control.ico")
+    app_update.iconbitmap(fr"resources/Brightness Control.ico")
 
     ver_dat = version
 
