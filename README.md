@@ -44,7 +44,7 @@ The latest version, 1.5.0, introduces a streamlined graphical user interface (GU
 
 # How to Install Dependencies
 ```bash
-pip install tkinter customtkinter screen_brightness_control requests webbrowser getpass shutil pywin32
+pip install customtkinter, screen_brightness_control, requests, shutil, pywin32
 ```
 
 # About EVOKE
