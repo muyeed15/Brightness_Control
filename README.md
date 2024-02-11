@@ -30,17 +30,12 @@ The latest version, 1.5.0, introduces a streamlined graphical user interface (GU
 ![3](https://github.com/muyeed15/Brightness_Control/assets/101888493/2ef70ab1-4ca1-458f-a2e9-5dbe0817c7a1)
 
 # Usage Instructions for RAW Code
-
-<li>Download and run the program from the "C:\EVOKE\Brightness Control\" directory.
-
-<li>Note that Brightness Control is specifically designed for Windows.
+Note: Brightness Control is specifically designed for Windows.
 
 # System Requirements
 <li>Microsoft Windows
 
 <li>Python 3.12.0
-
-<li>Required Libraries: tkinter, customtkinter, screen_brightness_control, requests, webbrowser, os, getpass, shutil, win32com.client
 
 # How to Install Dependencies
 ```bash
