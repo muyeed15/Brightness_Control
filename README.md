@@ -39,7 +39,7 @@ Note: Brightness Control is specifically designed for Windows.
 
 # How to Install Dependencies
 ```bash
-pip install customtkinter, screen_brightness_control, requests, shutil, pywin32
+pip install tk, customtkinter, pillow, screen_brightness_control, requests, shutil, pywin32
 ```
 
 # About EVOKE
