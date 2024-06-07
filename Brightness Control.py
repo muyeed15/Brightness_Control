@@ -186,18 +186,13 @@ def startup_writer():
         process_write.write('1.00')
 
 
-def main():
-    with open('data\\scripts\\process_info.txt', 'r') as reading_process:
-        process_code = float(reading_process.read().strip())
-    try:
-        if process_code < 1.0:
-            os.system('data\\scripts\\startup.bat')
-            startup_writer()
-            messagebox.showinfo(title, 'Thank You for installing Brightness Control!')
-            full_process()
-    finally:
+with open('data\\scripts\\process_info.txt', 'r') as reading_process:
+    process_code = float(reading_process.read().strip())
+try:
+    if process_code < 1.0:
+        os.system('data\\scripts\\startup.bat')
+        startup_writer()
+        messagebox.showinfo(title, 'Thank You for installing Brightness Control!')
         full_process()
-
-
-if __name__ == "__main__":
-    main()
+finally:
+    full_process()
