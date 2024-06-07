@@ -24,7 +24,7 @@ status_label.pack(pady=50)
 
 
 def update():
-    webbrowser.open_new_tab("https://sourceforge.net/projects/brightness-control/")
+    webbrowser.open_new_tab('https://sourceforge.net/projects/brightness-control/')
     os.startfile(r"C:/x86 INSIDE/Brightness Control/script/script_bat_4.bat")
 
 
@@ -35,7 +35,7 @@ update_button.pack(ipadx=22, ipady=5)
 def configure():
     def update_checker():
         try:
-            check = float(requests.get('https://raw.githubusercontent.com/muyeed15/Brightness_Control/main/info.txt').text)
+            check = float(requests.get('https://raw.githubusercontent.com/muyeed15/Brightness-Control-Updates/master/version.txt').text)
 
             if check > version:
                 status = " Updates are available ! "
