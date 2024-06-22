@@ -21,6 +21,8 @@ The latest version, 1.5.0, introduces a streamlined graphical user interface (GU
 # Achievements
 ![image](https://github.com/muyeed15/Brightness_Control/assets/101888493/8af7582f-d702-4626-9de0-a6c19971a45f)
 ![image](https://github.com/muyeed15/Brightness_Control/assets/101888493/3cb57151-13f1-48ad-8159-709bb77f5b27)
+![image](https://github.com/muyeed15/Brightness_Control/assets/101888493/615f444e-7edc-43b0-976d-c17d489e4ec0)
+
 
 # Screenshots
 ![1](https://github.com/muyeed15/Brightness_Control/assets/101888493/069a9844-8a3f-4e36-a9e0-08f35ead613b)
